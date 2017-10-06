@@ -21,7 +21,7 @@ Objects are physical entities we can feel and touch in real life,but in software
 <p><em>Encapsulation</em> is the idea that an attribute donnot need to be visualised by other objects,The attribuute are hidden from all other object except it's respective object for a better and clean code.for instance, imagine we have an object called <span style="font-family: courier">telvision</span> which has the attribute <span style="font-family: courier">capacitor</span> and <span style="font-family: courier">voltage</span>,these attributes only make sense in the <span style="font-family: courier">television</span> because objects like <span style="font-family: courier">remote</span> don't need to interact nor visualise them.
 <strong>unit 1.</strong><h3>Classes</h3>
 From OOP perspective,classes describes objects,and each object is an instance of a class. ref--><span style="font-family: courier">oop:oop_1.py</span>
-
+  
 <strong>unit2.</strong>
 <h3>properties</h3>
 Encapsulation suggest that attribute are made private,else attribute/method would be accessed by all objects,even in the presence of an interface, for convention add an underscore <span style="font-family: courier">_<span><</span>attribute/method></span> or a double underscore <span style="font-family: courier">__<span><</span>attribute/method></span> to make an attribute private and are both considered a good convention and these method is known as <span style="font-family: courier">name mangling</span>.<br/>
