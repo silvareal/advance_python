@@ -16,3 +16,10 @@ class Contact:
         self.email =email
         Contact.contact_list.append(self)
 
+class Customer(AddressHolder, Contact):
+    
+    def __init__(self,street, number,city, state, name, email, phone):
+        AddressHolder.__init__(self)
+        Contact.__init__(self)
+        self.phone = phone
+
